@@ -1,10 +1,8 @@
-obj-m += netcat.o
+# Declare Name of kernel module
+KMOD    =  netcatbsd 
 
-KERNELDIR	?=  /lib/modules/$(shell uname -r)/build
-PWD		:= $(shell pwd)
+# Enumerate Source files for kernel module
+SRCS    = netcatbsd.c
 
-all:
-	$(MAKE) -C $(KERNELDIR) M=$(PWD)
-
-clean:
-	$(MAKE) -C $(KERNELDIR) M=$(PWD) clean
+# Include kernel module makefile
+.include <bsd.kmod.mk>
