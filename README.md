@@ -9,6 +9,7 @@ Released April 2014
 * [http://netcat.bandcamp.com](http://netcat.bandcamp.com)
 * [http://tableandchairsmusic.com/artists/netcat](http://tableandchairsmusic.com/artists/netcat)
 
+Ported to FreeBSD by Richard Walker and Eitan Adler.
 
 Cycles Per Instruction - The Kernel Module Edition - FreeBSD Flavoured!
 -----------------------------------------------------------------------
