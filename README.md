@@ -1,6 +1,8 @@
 ♫ netcat - Cycles Per Instruction
 ===============================
 
+Get back to work, Dan.
+
 by [Brandon Lucia](http://brandonlucia.com/music.html), Andrew Olmstead, and David Balatero
 
 Released April 2014
